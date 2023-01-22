@@ -1,3 +1,5 @@
+# Installing Tiramisu with Bluubomb
+
 You should really only follow this if you were redirected here due to unable to use the browser for some reason.
 
 Notes:  
@@ -14,7 +16,7 @@ Notes:
 1. Insert the SD Card into the Wii U.
 
 ### Setting up and using BluuBomb:
-- Follow [this](bluubomb setup.md) to set up BluuBomb.
+- Follow [this](/docs/setup.md) to set up BluuBomb.
 
 ### Installing the PayloadLoader into Health and Safety:
 1. Navigate to `installer` and then press A to Check.
@@ -26,11 +28,11 @@ Notes:
 1. Load the the Health and Safety application while holding B.
 1. Navigate to `nanddumper` and press A.  
 1. Make the settings look like this and then press A. MLC is optional as it is the biggest part of the NAND Backup (8gb or 32gb depending on your model).  
-	-SLC: Yes  
-	-SLCCMPT: Yes  
-	-MLC: Optional  
-	-OTP: Yes  
-	-SEEPROM: Yes  
+    - SLC: Yes  
+    - SLCCMPT: Yes  
+    - MLC: Optional  
+    - OTP: Yes  
+    - SEEPROM: Yes  
 1. Wait for it to finish. It may take a few hours if you opted to dump MLC.  
 1. To make sure you don’t lose the files, copy the `slc.bin`, `slccmpt.bin`, `seeprom.bin`, `otp.bin` and if you chose to go with a full backup, every `mlc.bin.part` file to your computer.
 1. Delete the files to free up space on the SD Card.
