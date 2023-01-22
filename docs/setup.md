@@ -18,7 +18,7 @@ How to set up and use Bluubomb:
 
 ### Simple Pairing Mode
 On some devices the simple pairing mode can't be disabled by bluubomb.  
-You can check the current Simple Pairing mode by running hciconfig hci0 sspmode.  
+You can check the current Simple Pairing mode by running `hciconfig hci0 sspmode`.  
 Make sure it says `Simple Pairing mode: Disabled`.  
 If not run `sudo hciconfig hci0 sspmode disabled` and `sudo hciconfig hci0 reset`.  
 Then check the mode again.  
