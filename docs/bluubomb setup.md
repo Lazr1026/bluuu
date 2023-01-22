@@ -3,7 +3,7 @@ How to set up and use Bluubomb:
 ### Bluubomb Setup
 1. Run `sudo apt install build-essential libbluetooth-dev libglib2.0-dev libdbus-1-dev git` to install the required dependencies.
 1. Run `git clone https://github.com/rnconrad/WiimoteEmulator && cd WiimoteEmulator`.
-1. Run `source ./build-custom.sh to build BlueZ`. Don't worry if building the emulator itself fails due to missing SDL headers. Just continue with the next steps.
+1. Run `source ./build-custom.sh` to build BlueZ. Don't worry if building the emulator itself fails due to missing SDL headers. Just continue with the next steps.
 1. Stop the already running bluetooth service `sudo systemctl disable --now bluetooth`.
 1. Run the custom built bluetoothd `sudo ./bluez-4.101/dist/sbin/bluetoothd -d -n`.
 1. Download the bluubomb binary and the sd_kernels.zip from the [releases](https://github.com/GaryOderNichts/Bluubomb/releases) page. 
