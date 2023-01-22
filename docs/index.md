@@ -10,7 +10,7 @@ Notes:
 
 ### SD Prep:
 1. Copy the **contents** of the Tiramisu zip to the root of the SD Card.
-1. Copy the `root.rpx` file from the `wiiu` folder to root of the SD Card, and rename to `launch.rpx`.
+1. Copy the `root.rpx` file from the `sd:/wiiu/environments` folder to root of the SD Card, and rename to `launch.rpx`.
 1. Insert the SD Card into the Wii U.
 
 ### Setting up and using BluuBomb:
