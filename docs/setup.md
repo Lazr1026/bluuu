@@ -12,8 +12,8 @@ How to set up and use Bluubomb:
 1. Power on the Wii U, insert your SD Card and press the sync button. Make sure there are no other controllers connected.
 1. Open a new terminal and make the bluubomb file executable by running `chmod +x bluubomb`.
 1. Run `sudo ./bluubomb` and wait for the pairing process to complete.  
-	-This might take a minute.  
-	-If you get a warning about Simple Pairing mode read the Simple Pairing mode section below.  
+	- This might take a minute.  
+	- If you get a warning about Simple Pairing mode read the Simple Pairing mode section below.  
 1. After it has finished sending the data, go to Step 1 on the main page in section `Installing the PayloadLoader into Health and Safety`.
 
 ### Simple Pairing Mode
